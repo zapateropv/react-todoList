@@ -1,0 +1,103 @@
+
+
+.listh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listh1{
+    font-family: arial;
+    font-size: 1.3rem;
+}
+
+.listInput{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.listInput input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(144, 144, 144);
+    font-family: arial;
+    color: grey;
+    
+}
+
+.listInput button{
+    border: none;
+    background-color: rgb(5, 152, 5);
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: transform .2s
+}
+
+.listInput button:hover{
+    background-color: rgb(10, 136, 10);
+    transform: scale(1.1);
+}
+
+.listOl{
+    list-style-type: none;
+    
+}
+
+.listLi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(63, 126, 126);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.doList{
+    font-family: arial;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.doList{
+    flex: 1
+}
+
+.DeleteBtn, .UpBtn, .DownBtn{
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: transform .2s
+}
+
+.DeleteBtn{
+    background-color: red;
+}
+
+.UpBtn, .DownBtn{
+    background-color: rgb(14, 20, 194);
+}
+
+.DeleteBtn:hover, .UpBtn:hover, .DownBtn:hover{
+    transform: scale(1.1);
+}
